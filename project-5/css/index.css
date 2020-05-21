@@ -1,0 +1,640 @@
+*, :before, :after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.header {
+	display: flex;
+	background-color: #2F343A;
+	padding: 30px;
+	justify-content: space-around;
+}
+
+.header_logo {
+	display: flex;
+}
+
+.header_logo_placeholder {
+	margin-left: 25px;
+	border-left: 1px solid #fff;
+}
+
+.header_logo_office {
+	font-size: 12px;
+	font-family: Roboto;
+	font-style: normal;
+	text-transform: uppercase;
+	color: #fff;
+	margin-top: 15px;
+	margin-left: 20px;
+}
+
+.header_logo_link {
+	text-decoration: none;
+	color: #fff;
+	letter-spacing: 0.05em;
+}
+
+.header_logo_link:hover {
+	color: #C8A35F;
+	transition: 0.4s;
+}
+
+.header_logo_img {
+	display: block;
+	margin-top: 10px;
+	margin-left: 20px;
+}
+
+.header_menu {
+	list-style: none;
+	display: flex;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: Roboto;
+	font-weight: normal;
+	text-transform: uppercase;
+	padding: 15px;
+}
+
+.header_menu_link {
+	text-decoration: none;
+	color: #fff;
+	padding: 0 15px;
+	letter-spacing: 0.05em;
+}
+
+.header_menu_link:hover {
+	color: #C8A35F;
+	transition: 0.4s;
+}
+
+.container {
+	display: flex;
+	background-image: url(../images/Rectangle2.jpg);
+	justify-content: center;
+	background-size: cover;
+	width: 100%;
+	height: 620px;
+	flex-direction: column;
+}
+
+.container_motto {
+	border: 1px solid #C8A35F;
+	width: 920px;
+	height: 245px;
+	font-size: 32px;
+	font-family: Roboto;
+	color: #fff;
+	font-weight: 100;
+	padding: 40px;
+	margin: 0 auto;
+	margin-top: 100px;
+}
+
+.container_motto_text1 {
+	font-size: 64px;
+	letter-spacing: 0.05em;
+}
+
+.container_motto_text1 {
+	text-align: center;
+}
+
+.container_motto_text2 {
+	text-align: center;
+	font-size: 21px;
+	margin-top: 20px;
+}
+
+.container_img {
+	display: flex;
+	width: 30px;
+	height: 30px;
+	margin: 0 auto;
+	margin-top: 180px;
+}
+
+.information {
+	background-color: #2F343A;
+	display: flex;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.information_menu {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+
+.information_menu1 {
+	margin-top: 100px;
+	width: 350px;
+	height: 127px;
+	font-size: 35px;
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.information_menu2 {
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	color: #fff;
+	width: 350px;
+}
+
+.information_btn {
+	text-decoration: none;
+	color: #fff;
+	width: 250px;
+	height: 81px;
+	background-color: #C8A35F;
+	text-align: center; 
+	padding: 30px;
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	margin-top: 80px;
+	letter-spacing: 0.05em;
+}
+
+.information_btn:hover {
+	color:#C8A35F;
+	border: 1px solid #C8A35F;
+	background-color: transparent;
+	transition: 0.4s;
+}
+
+.information_img {
+	margin-top: 100px;
+}
+
+.information_stick {
+	margin-top: 100px;
+	width: 90px;
+	height: 6px;
+	background-color: #C8A35F;
+	content: "";
+}
+
+.services {
+	display: flex;
+	background-color: #2F343A;
+	width: 100%;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.services_h1 {
+	display: flex;
+	font-family: Roboto;
+	margin-top: 100px;
+	color: #fff;
+	font-size: 35px;
+	margin-left: 120px;
+	letter-spacing: 0.05em;
+
+}
+
+.services_transportation {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-bottom: 100px;
+}
+
+.services_transportation1 {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 276px;
+	height: 180px;
+	background-color: #393F47;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	position: relative;
+	overflow: hidden;
+}
+
+.services_transportation1:hover:after {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	background-image: url(../images/airline.png);
+	background-repeat: no-repeat;
+	content: "";
+}
+
+.services_transportation1:hover {
+	background-color: #c8a35f;
+	transition: 0.4s;
+}
+
+
+.vector {
+	margin: 0 auto;
+	align-items: center;
+	width: 30px;
+	height: 30px;
+
+}
+
+.avia {
+	margin-top: 40px;
+	text-align: center;
+	font-family: Roboto;
+	font-size: 18px;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 0.05em;
+}
+
+.services_transportation2 {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 276px;
+	height: 180px;
+	background-color: #393F47;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.services_transportation2:hover:after {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	background-image: url(../images/airline.png);
+	background-repeat: no-repeat;
+	content: "";
+}
+
+.services_transportation2:hover {
+	background-color: #c8a35f;
+	transition: 0.4s;
+}
+
+.services_transportation3 {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 276px;
+	height: 180px;
+	background-color: #393F47;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.services_transportation3:hover:after {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	background-image: url(../images/airline.png);
+	background-repeat: no-repeat;
+	content: "";
+}
+
+.services_transportation3:hover {
+	background-color: #c8a35f;
+	transition: 0.4s;
+}
+
+.services_transportation4 {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 276px;
+	height: 180px;
+	background-color: #393F47;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.services_transportation4:hover:after {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	background-image: url(../images/airline.png);
+	background-repeat: no-repeat;
+	content: "";
+}
+
+.services_transportation4:hover {
+	background-color: #c8a35f;
+	transition: 0.4s;
+}
+
+.services_transportation5 {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 276px;
+	height: 180px;
+	background-color: #393F47;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-top: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.services_transportation5:hover:after {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	background-image: url(../images/airline.png);
+	background-repeat: no-repeat;
+	content: "";
+}
+
+.services_transportation5:hover {
+	background-color: #c8a35f;
+	transition: 0.4s;
+}
+
+.services_transportation6 {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 276px;
+	height: 180px;
+	background-color: #393F47;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1px;
+	margin-top: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.services_transportation6:hover:after {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	background-image: url(../images/airline.png);
+	background-repeat: no-repeat;
+	content: "";
+}
+
+.services_transportation6:hover {
+	background-color: #c8a35f;
+	transition: 0.4s;
+}
+
+.services_transportation7 {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 276px;
+	height: 180px;
+	background-color: #393F47;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1px;
+	margin-top: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.services_transportation7:hover:after {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	background-image: url(../images/airline.png);
+	background-repeat: no-repeat;
+	content: "";
+}
+
+.services_transportation7:hover {
+	background-color: #c8a35f;
+	transition: 0.4s;
+}
+
+.services_transportation8 {
+	margin-top: 50px;
+	margin-left: 120px;
+	width: 276px;
+	height: 180px;
+	background-color: #393F47;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin-left: 1px;
+	margin-top: 1px;
+	position: relative;
+	overflow: hidden;
+}
+
+.services_transportation8:hover:after {
+	position: absolute;
+	top: 25px;
+	left: 100px;
+	right: 0;
+	bottom: 0;
+	background-image: url(../images/airline.png);
+	background-repeat: no-repeat;
+	content: "";
+}
+
+.services_transportation8:hover {
+	background-color: #c8a35f;
+	transition: 0.4s;
+}
+
+.company {
+   	background-color: #2F343A;
+   	display: flex;
+   	width: 100%;
+   	height: 480px;`
+   }
+
+.company_info {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	height: 360px;
+	width: 540px;
+	}
+
+.company_info_stick {
+	margin-top: 50px;
+	margin-left: 120px;
+   	width: 90px;
+	height: 6px;
+	background-color: #C8A35F;
+	content: ""
+   }
+
+.company_h1 {
+	font-family: Roboto;
+	font-size: 35px;
+	color: #fff;
+	margin-left: 120px;
+	letter-spacing: 0.05em;
+}
+
+.company_p {
+	display: block;
+	font-family: Roboto;
+	font-size: 16px;
+	color: #fff;
+	margin-left: 120px;
+
+}
+
+.company_info1 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	margin-top: 50px;
+	width: 600px;
+	height: 320px;
+	margin-left: 100px;
+}
+
+.company_block1 {
+	width: 200px;
+	height: 160px;
+	background-color: #fff;
+	border-top:  1px solid #c8a35f;
+	border-left: 1px solid #c8a35f;
+	border-bottom: 1px solid #c8a35f;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+}
+
+.company_block1_text {
+	text-align: center;
+	font-size: 64px;
+	font-family: Roboto;
+	text-transform: uppercase;
+	color: #2F343A;
+	margin-top: 10px;
+}
+
+.company_block1_text2 {
+	text-align: center;
+	font-family: Roboto;
+	color: #2F343A;
+	font-size: 18px;
+	font-weight: 590;
+	letter-spacing: 0.05em;
+	margin-bottom:  15px;
+}
+
+.company_block1_text3 {
+	text-align: center;
+	font-family: Roboto;
+	color: #2F343A;
+	font-size: 12px;
+	font-weight: 580;
+	letter-spacing: 0.05em;
+	margin-bottom: 15px;
+	}
+
+.company_block2 {
+	width: 200px;
+	height: 160px;
+	background-color: #fff;
+	border: 1px solid #c8a35f;
+}
+
+.company_block3 {
+	width: 200px;
+	height: 160px;
+	background-image: url(../images/Rectangle2.2.jpg);
+}
+
+.company_block4 {
+	width: 200px;
+	height: 160px;
+	background-image: url(../images/Rectangle2.2.jpg);
+	border-left: 1px solid #c8a35f;
+	border-bottom: 1px solid #c8a35f;
+}
+
+.company_block5 {
+	width: 200px;
+	height: 160px;
+	background-color: #fff;
+	border-right: 1px solid #c8a35f;
+	border-bottom: 1px solid #c8a35f;
+	border-left: 1px solid #c8a35f;
+}
+
+.footer {
+	display: flex;
+	background-color: #c8a35f;
+	width: 100%;
+	justify-content: space-around;
+}
+
+.footer_logo {
+	padding: 30px;
+}
+
+
+.footer_adress {
+	margin-top: 35px;
+
+}
+
+.footer_adress {
+	font-family: Roboto;
+	font-size: 16px;
+	color: #fff;
+}
+
+.footer_mail {
+	color: black;
+}
+
+.footer_phone{
+	padding: 30px;
+}
+
+.footer_link_phone {
+	color: #fff;
+	text-decoration: none;
+}
+
+.footer_link {
+	padding: 30px;
+	margin-top: 10px;
+}
+
+.footer_link_hell {
+	color: black;
+}
