@@ -27,16 +27,198 @@ body {
 	
 }
 
-p {
+.font1 {
 	font-size: 25px;
 }
 
-p::before {
-	font-family: "Font Awesome 5 Free";
+.font1::before {
+	font-family: "Font Awesome 5 Brands";
 	font-weight: 400;
 	content: "\f16d";
+	font-size: 40px;
+
 }
 
 .code {
+	font-size: 25px;
+}
+
+.font2 {
+	font-size: 25px;
+}
+
+.font2::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f09a";
+	font-size: 40px;
+
+}
+
+.font3 {
+	font-size: 25px;
+}
+
+.font3::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f189";
+	font-size: 40px;
+
+}
+
+.font4 {
+	font-size: 25px;
+}
+
+.font4::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 900;
+	content: "\f179";
+	font-size: 40px;
+
+}
+
+.font5 {
+	font-size: 25px;
+}
+
+.font5::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f17b";
+	font-size: 40px;
+
+}
+
+.font6 {
+	font-size: 25px;
+}
+
+.font6::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f415";
+	font-size: 40px;
+
+}
+
+.font7 {
+	font-size: 25px;
+}
+
+.font7::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f835";
+	font-size: 40px;
+
+}
+
+.font8 {
+	font-size: 25px;
+}
+
+.font8::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f189";
+	font-size: 40px;
+
+}
+
+.font9 {
+	font-size: 25px;
+}
+
+.font9::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f270";
+	font-size: 40px;
+
+}
+
+.font10 {
+	font-size: 25px;
+}
+
+.font10::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f370";
+	font-size: 40px;
+
+}
+
+.font11 {
+	font-size: 25px;
+}
+
+.font11::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f1a0";
+	font-size: 40px;
+
+}
+
+.font12 {
+	font-size: 25px;
+}
+
+.font12::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f3aa";
+	font-size: 30px;
+
+}
+
+.font13 {
+	font-size: 25px;
+}
+
+.font13::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f099";
+	font-size: 40px;
+
+}
+
+.font14 {
+	font-size: 25px;
+}
+
+.font14::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f1b6";
+	font-size: 40px;
+
+}
+
+.font15 {
+	font-size: 25px;
+}
+
+.font15::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f3ae";
+	font-size: 40px;
+
+}
+
+.font16::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f4f9";
+	font-size: 40px;
+
+}
+
+.font16 {
 	font-size: 25px;
 }
