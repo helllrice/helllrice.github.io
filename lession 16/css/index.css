@@ -224,9 +224,6 @@ body {
 	font-size: 25px;
 }
 
-.font17 {
-	font-size: 25px;
-}
 
 .font17::before {
 	font-family: "Font Awesome 5 Brands";
@@ -234,6 +231,10 @@ body {
 	content: "\f836";
 	font-size: 40px;
 
+}
+
+.font17 {
+	font-size: 25px;
 }
 
 .font18::before {
