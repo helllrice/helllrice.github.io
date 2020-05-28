@@ -6,6 +6,7 @@
 
 body {
 	font-family: "Font Awesome 5 Free";
+	font-family: "Font Awesome 5 Brands";
 }
 
 .container {
@@ -220,5 +221,53 @@ body {
 }
 
 .font16 {
+	font-size: 25px;
+}
+
+.font17 {
+	font-size: 25px;
+}
+
+.font17::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f836";
+	font-size: 40px;
+
+}
+
+.font18::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 400;
+	content: "\f778";
+	font-size: 40px;
+
+}
+
+.font18 {
+	font-size: 25px;
+}
+
+.font19::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 300;
+	content: "\f26e";
+	font-size: 40px;
+
+}
+
+.font19 {
+	font-size: 25px;
+}
+
+.font20::before {
+	font-family: "Font Awesome 5 Brands";
+	font-weight: 900;
+	content: "\f3c5";
+	font-size: 30px;
+
+}
+
+.font20 {
 	font-size: 25px;
 }
