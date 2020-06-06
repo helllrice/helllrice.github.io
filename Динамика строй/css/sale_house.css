@@ -1,0 +1,29 @@
+.sale_house {
+	width: 1140px;
+	margin: 0 auto;
+}
+
+.sale_house_logo {
+	margin-top: 50px;
+	font-size: 36px;
+	color: #333333;
+}
+
+.sale_house_text {
+	width: 900px;
+}
+
+.sale_house_text2 {
+	font-size: 30px;
+}
+
+.sale_house_ul {
+	list-style-position: inside;
+	color: black;
+	font-size: 14px;
+}
+
+.sale_house_li {
+	color: black;
+	font-size: 14px;
+}

@@ -1,0 +1,88 @@
+.li_menu2 {
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #35B2C4;
+}
+
+.company {
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.company_logo {
+	margin-top: 50px;
+	font-size: 36px;
+	color: #333333;
+}
+
+.company_logo2 {
+	text-align: center;
+	font-size: 30px;
+	color: #333333;
+}
+
+.company_list {
+	color: black;
+	font-size: 16px;
+	list-style-position: inside;
+}
+
+.company_logo3 {
+	text-align: center;
+	font-size: 30px;
+	color: #333333;
+}
+
+.company_capabilities {
+	width: 800px;
+}
+
+
+.li_menu3 {
+	position: relative;
+	background-color: #75DA8A;
+}
+
+.li_menu3:hover {  
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #35B2C4;
+}
+
+.li_menu3:hover .menu_drop {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	right: 0;
+	bottom: 20px;
+	list-style: none;
+	background-color: #35B2C4;
+	width: 290px;
+	height: 40px;
+	opacity: 1
+}
+
+.li_menu4 {  
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #42B9BB;
+}
+
+.li_menu4:first-child {
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_menu4:nth-child(2)  {
+	border-top: 1px solid #6AD496;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+
+}
+
+.li_menu4:last-child {
+	border: 1px solid #6AD496;
+}

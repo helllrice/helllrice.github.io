@@ -1,0 +1,43 @@
+.rent {
+	width: 1140px;
+	margin: 0 auto;	
+}
+
+.rent_logo {
+	margin-top: 50px;
+	font-size: 36px;
+	color: #333333;
+} 
+
+.container {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+
+.rent_text {
+	width: 800px;
+}
+
+.rent_img {
+	float: right;
+}
+
+.rent_text2 {
+	font-size: 36px;
+	color: #333333;
+}
+
+.rent_menu {
+	list-style-position: inside;
+}
+
+.rent_list {
+	color: #333333;
+	font-size: 16px;
+}
+
+.rent_text3 {
+	width: 1140px;
+}

@@ -1,0 +1,56 @@
+.li_menu2 {
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #35B2C4;
+}
+
+.contacts {
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.contacts_logo {
+	margin-top: 50px;
+	font-size: 36px;
+	color: #333333;
+}
+
+.strong {
+	color: #333333;
+}
+
+.footer {
+	margin-top: 50px;
+}
+
+.li_menu4 {
+	position: relative;
+}
+
+
+.li_menu4:hover {  
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #35B2C4;
+ }
+
+ .li_menu4:hover .menu_drop {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	right: 0;
+	bottom: 20px;
+	list-style: none;
+	background-color: #35B2C4;
+	width: 290px;
+	height: 40px;
+	opacity: 1
+}
+
+.ul_menu_link {
+	color: #fff;
+	text-decoration: none;
+}
+

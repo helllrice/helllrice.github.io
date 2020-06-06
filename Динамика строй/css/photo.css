@@ -1,0 +1,54 @@
+.li_menu3 {
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #42B9BB;
+}
+
+
+.gallery {
+	margin: 0 auto;
+	width: 1140px;
+}
+
+.gallery_container {
+	margin-top: 20px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+
+}
+
+
+.li_menu2 {
+	position: relative;
+	background-color: #75DA8A;
+}
+
+
+
+
+ .li_menu2:hover .menu_drop {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	right: 0;
+	bottom: 20px;
+	list-style: none;
+	background-color: #75DA8A;
+	width: 290px;
+	height: 40px;
+	opacity: 1
+}
+
+.li_menu2:hover {  
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	  }
+
+.ul_menu_link {
+	color: #fff;
+	text-decoration: none;
+}
+
