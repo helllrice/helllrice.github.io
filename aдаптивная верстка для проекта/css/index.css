@@ -1,0 +1,291 @@
+*, :before, :after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+	font-family: 'Roboto',sans-serif;
+}
+
+.header {
+	width: 1220px;
+	height: 200px;
+	margin: 0 auto;
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.header_geo {
+	padding: 30px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.header_link {
+	margin-left: 100px;
+	color: #75DA8A;
+	border-bottom: 1px dotted #75DA8A;
+	text-decoration: none;
+}
+
+.fas {
+	padding: 10px;
+	color: #75DA8A;
+}
+
+.header_call {
+	padding: 30px;
+	display: flex;
+	justify-content: flex-start;
+	flex-direction: column;
+}
+
+.header_link2 {
+	margin-left: 30px;
+	color: #75DA8A;
+	border-bottom: 1px dotted #75DA8A;
+	text-decoration: none;
+}
+
+.ul_menu {
+	margin: 0 auto;
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	background-color: #75DA8A;
+	width: 1150px;
+	border-radius: 7px;
+}
+
+li {
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+}
+
+.li_menu {
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #35B2C4;
+}
+
+.li_menu2 {
+	position: relative;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.menu_drop {
+	position: absolute;
+	top: -99999em;
+	left: 0px;
+	right: 0;
+	bottom: 20px;
+	list-style: none;
+	background-color: #35B2C4;
+	width: 290px;
+	height: 40px;
+	opacity: 0;
+	z-index: 11;	
+}
+
+.li_menu2:hover .menu_drop {
+	position: absolute;
+	top: 54px;
+	left: 0px;
+	right: 0;
+	bottom: 20px;
+	list-style: none;
+	background-color: #35B2C4;
+	width: 290px;
+	height: 40px;
+	opacity: 1
+}
+
+.li_menu2:hover {  
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #35B2C4;
+}
+
+
+
+.li_menu3 {  
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #42B9BB;
+}
+
+.li_menu3:first-child {
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_menu3:nth-child(2)  {
+	border-top: 1px solid #6AD496;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_menu3:last-child {
+	border: 1px solid #6AD496;
+}
+
+.ul_menu_link {
+	color: #fff;
+	text-decoration: none;
+}
+
+.li_submenu {
+	position: relative;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.submenu_list{
+	position: absolute;
+	top: -99999em;
+	left: 0px;
+	right: 0;
+	bottom: 20px;
+	list-style: none;
+	background-color: #35B2C4;
+	width: 290px;
+	height: 40px;
+	opacity: 0;
+	z-index: 11
+}
+
+.li_submenu:hover {
+	background-color: #35B2C4;
+}
+
+.li_submenu:hover .submenu_list {
+	position: absolute;
+	top: 54px;
+	left: 0px;
+	right: 0;
+	bottom: 20px;
+	list-style: none;
+	background-color: #35B2C4;
+	width: 350px;
+	height: 40px;
+	opacity: 1
+}
+
+.li_submenu1 {  
+	padding: 15px;
+	font-size: 20px;
+	color: #fff;
+	background-color: #42B9BB;
+	  }
+
+.li_submenu1:first-child {
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_submenu1:nth-child(2)  {
+	border-top: 1px solid #6AD496;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_submenu1:nth-child(3)  {
+	border-top: 1px solid #6AD496;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_submenu1:nth-child(4)  {
+	border-top: 1px solid #6AD496;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_submenu1:nth-child(5)  {
+	border-top: 1px solid #6AD496;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_submenu1:nth-child(6)  {
+	border-top: 1px solid #6AD496;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_submenu1:nth-child(7)  {
+	border-top: 1px solid #6AD496;
+	border-left: 1px solid #6AD496;
+	border-right: 1px solid #6AD496;
+}
+
+.li_submenu1:last-child {
+	border: 1px solid #6AD496;
+}
+
+
+
+@media screen and (max-width: 480px) {
+
+	*, :before, :after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+	
+	.img_logo {
+		width: 250px;
+		height: 100px;
+		object-fit: contain;
+	}
+
+	.header {
+		width: 480px;
+		height: 400px;
+		display: flex;
+		justify-content: flex-end;
+		flex-direction: column;
+	}
+
+	.header_geo {
+		padding: 15px;
+	}
+
+	.header_call {
+		padding: 15px;
+	}
+
+
+	.geo_street {
+		margin-left: 40px;
+		font-size: 15px;
+	}
+
+	.call {
+		margin-left: 80px;
+		font-size: 15px;
+	}
+
+	.header_link {
+		width: 95px;
+		height: 17px;
+		margin-left: 135px;
+	}
+
+
+	.header_link2 {
+		width: 130px;
+		height: 17px;
+		margin-left: 104px;
+	}
+}
+
