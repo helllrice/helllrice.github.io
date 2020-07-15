@@ -1,0 +1,17 @@
+#container {
+	display: -webkit-flex;
+	display: -moz-flex;
+	display: -ms-flex;
+	display: -o-flex;
+	display: flex;
+	height: 200px;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
+.object {
+	text-align: center;
+	width: 200px;
+	border:1px solid black;
+}
